@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/booklist/booklist",
+    "pages/socialarea/socialarea",
+    "pages/ident/ident",
+    "pages/myself/myself"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/booklist/booklist",
+        "text": "书单",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-select.png"
+      },
+      {
+        "pagePath": "pages/ident/ident",
+        "text": "认证",
+        "iconPath": "images/weekly.png",
+        "selectedIconPath": "images/weekly-select.png"
+      },
+      {
+        "pagePath": "pages/socialarea/socialarea",
+        "text": "社区",
+        "iconPath": "images/shequ.png",
+        "selectedIconPath": "images/shequ-selected.png"
+      },
+          {
+            "pagePath": "pages/myself/myself",
+            "text": "我的",
+            "iconPath": "images/me.png",
+            "selectedIconPath": "images/me-selected.png"
+          }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
