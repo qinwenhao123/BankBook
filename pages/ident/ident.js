@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  f0:function(e){
+    wx.navigateTo({
+      url: 'identified/identified',
+    })
   }
 })
