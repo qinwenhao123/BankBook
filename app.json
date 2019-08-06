@@ -3,6 +3,7 @@
     "pages/booklist/booklist",
     "pages/socialarea/socialarea",
     "pages/ident/ident",
+    "pages/ident/identified/identified",
     "pages/myself/myself"
   ],
   "tabBar": {
