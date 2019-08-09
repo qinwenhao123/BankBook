@@ -7,8 +7,8 @@
 .search  > view{
   display: flex;
   justify-content: center;
-
 }
+
 .search input{
   width: 500rpx;
   height: 40rpx;
@@ -16,6 +16,7 @@
   background-color: #a7a7a7;
   border-radius: 10rpx;
 }
+
 .menuList{
   display: flex;
   justify-content: space-between;
@@ -38,6 +39,15 @@
 .menuList .menu:nth-child(4){
   background-position: -600rpx 0;
 }
+
+.shudan
+{
+background-color: rgba(209, 157, 181, 0.993);
+  color:rgb(255, 255, 255);
+  border-radius: 8px;/*边角弧度*/
+  width: 170rpx;
+  text-align: center;/*文字居中*/
+ }
 
 .swiper-warp image{
   height: 300rpx;

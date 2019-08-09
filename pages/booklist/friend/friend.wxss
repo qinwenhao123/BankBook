@@ -1,0 +1,13 @@
+/* pages/booklist/friend/friend.wxss */
+.bookContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.book-item {
+    width: 350rpx;
+    height: 500rpx;
+    margin: 30rpx 10rpx
+}

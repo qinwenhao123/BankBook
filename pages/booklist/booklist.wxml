@@ -2,38 +2,41 @@
 <view class="">
 
   <!--设置背景-->
-  <image class='background' src="/images/blackground.png" mode="aspectFill"></image>
+  <image class='background' src="" mode="aspectFill"></image>
   <!--index.wxml-->
   <view class="topBg">
+    <!--搜索-->
     <view class="search">
       <view>
         <input type="text" placeholder="搜索"></input>
       </view>
     </view>
+
     <view class="menuList">
-      <view class="menu" style="background-image: url('../../images/menu.png')">
-
-        <text>定制书单</text>
+      <view class="menu"  style="background-image: url('../../images/menu.png')">
+        <navigator class="shudan" url="./dingzhi/FirstDz/FirstDz">定制书单</navigator>
       </view>
-      <view class="menu" style="background-image: url('../../images/menu.png')">
 
-        <text>朋友在读</text>
+      <view class="menu" style="background-image: url('../../images/menu.png')">
+        <navigator class='shudan' url="./friend/friend">朋友在读</navigator>
       </view>
-      <view class="menu" style="background-image: url('../../images/menu.png')">
 
-        <text>推荐书单</text>
+      <view class="menu" style="background-image: url('../../images/menu.png')">
+        <navigator class='shudan' url="./tuijian/tuijian">推荐书单</navigator>
       </view>
-      <view class="menu" style="background-image: url('../../images/menu.png')">
 
-        <text>关联书单</text>
+      <view class="menu" style="background-image: url('../../images/menu.png')">
+        <navigator class='shudan'  url="./guanlian/guanlian">关联书单</navigator>
       </view>
     </view>
   </view>
-  <!--首页轮播台-->
+
+
+  <!--轮播台-->
   <view class="swiper-warp">
     <swiper indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
       <swiper-item>
-        <image   src="../../images/swiper.png"></image>
+        <image src="../../images/swiper.png"></image>
       </swiper-item>
       <swiper-item>
         <image src="../../images/swiper.png"></image>
@@ -44,7 +47,7 @@
     </swiper>
   </view>
 
-<!--书目信息-->
+  <!--书目信息-->
   <view class="lm-title">我添加的书目</view>
   <view class="padding-content-flex">
     <view class="book"></view>
@@ -52,7 +55,7 @@
     <view class="book"></view>
   </view>
   <view class="lm-title">定制书单</view>
-    <view class="padding-content-flex">
+  <view class="padding-content-flex">
     <view class="book"></view>
     <view class="book"></view>
     <view class="book"></view>
