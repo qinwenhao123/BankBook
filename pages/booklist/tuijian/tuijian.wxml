@@ -1,0 +1,8 @@
+<!--pages/booklist/tuijian/tuijian.wxml-->
+<view class='bookContainer'>
+    <view class='book-item'>家庭亲子</view>
+    <view class='book-item'> 成功与励志</view>
+    <view class='book-item'>心理学</view>
+    <view class='book-item'>商业</view>
+</view>
+
